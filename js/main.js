@@ -14,10 +14,10 @@ $(document).ready(function () {
         columns: [
             { data: 'name' },
             { data: 'rating' },
-            { data: 'contact.site' },
-            { data: 'contact.email' },
-            { data: 'contact.phone' },
-            { data: 'address.street' },
+            { data: 'contact.site', "orderable": false },
+            { data: 'contact.email', "orderable": false  },
+            { data: 'contact.phone', "orderable": false  },
+            { data: 'address.street', "orderable": false  },
             { data: 'address.city' },
             { data: 'address.state' }
         ]
