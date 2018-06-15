@@ -4,7 +4,9 @@ body {
     font-size: 14px;
     background-image: url("../images/2.jpg");
     background-repeat: no-repeat;
+    background-position: top;
     background-size: cover;
+    padding-bottom: 20px; 
 }
 
 .tabla {
@@ -14,21 +16,35 @@ body {
     color: #f0ffff;
 }
 
+th {
+    text-align: center;
+}
+
 td {
     background-color: #272423da;
+    text-align: center;
 }
 
 .dataTables_wrapper .dataTables_paginate {
     background-color: #b3afaeda;
 }
 
+.resaltar {
+    box-sizing: border-box;
+    background-color: #b3afaeda;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 .titulo {
-    padding: 100px 0 100px 0;
+    padding: 70px 0 70px 0;
     text-align: center;
     background-color: #272423da;
     color: #efffff;
     width: 100%;
     border-radius: 5px;
+    box-shadow: 0px 3px 5px 0px rgba(44, 43, 43, 0.658);
 }
 
 .tarjetas {
