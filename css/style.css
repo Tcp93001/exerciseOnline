@@ -1,7 +1,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
+    font-size: 1rem;
     background-image: url("../images/2.jpg");
     background-repeat: no-repeat;
     background-position: top;
@@ -11,8 +11,6 @@ body {
 
 .tabla {
     background-color: #272423da;
-    row-gap: 3px;
-    vertical-align: middle;
     color: #f0ffff;
 }
 
@@ -53,5 +51,5 @@ td {
 
 .navbar {
     font-family: 'Lato', sans-serif;
-    font-size: 11px;
+    font-size: .8rem;
 }
